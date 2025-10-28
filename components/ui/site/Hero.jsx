@@ -168,7 +168,7 @@ const Hero = () => {
             ></motion.div>
 
             <Container>
-                <div className="flex items-center justify-between min-h-screen w-full text-white z-20 relative">
+                <div className="flex flex-col pt-12 md:pt-0 items-center text-center md:text-left md:flex-row items-center justify-between min-h-screen w-full text-white z-20 relative">
                     {/* Left Side - Content */}
                     <motion.div
                         className="flex-1 max-w-2xl space-y-8 px-4"
@@ -177,7 +177,7 @@ const Hero = () => {
                         animate="visible"
                     >
                         {/* Badge */}
-                        <motion.div variants={itemVariants} className="flex w-full">
+                        <motion.div variants={itemVariants} className="flex w-full items-center justify-center md:justify-start">
                             <div className="group relative">
                                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                                 <h2 className="relative bg-gray-900/80 backdrop-blur-sm text-gray-200 text-sm font-medium border border-gray-700/50 rounded-full px-6 py-2 w-fit flex items-center gap-2">
@@ -232,7 +232,7 @@ const Hero = () => {
                         </motion.div>
 
                         {/* CTA Buttons */}
-                        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start gap-4 pt-8">
+                        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center md:items-start gap-4 pt-8">
                             <Link
                                 href="/dashboard"
                                 className="group relative bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white px-8 py-4 rounded-2xl font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 flex items-center gap-3 border border-blue-500/30"
@@ -273,7 +273,7 @@ const Hero = () => {
 
                     {/* Right Side - Interactive Demo Card */}
                     <motion.div
-                        className="flex-1 flex items-center justify-center px-4"
+                        className="flex-1 hidden md:flex items-center justify-center px-4"
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.5 }}
@@ -468,3 +468,26 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

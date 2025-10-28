@@ -42,7 +42,7 @@ function Sidebar({ open, onClose }) {
             { icon: FileText, label: "Blueprints", href: "/dashboard/blueprints" },
             { icon: ChartBarStacked, label: "Market Watch", href: "/dashboard/market" },
             { icon: Home, label: "Mortgage", href: "/dashboard/mortgage" },
-            { icon: Bot, label: "CherifAI", href: "/dashboard/chat" },
+            { icon: Bot, label: "CherifAI", href: "/chat" },
             // { icon: Lock, label: "Vault", href: "/dashboard/vault" },
         ],
         []
@@ -150,3 +150,9 @@ function Sidebar({ open, onClose }) {
 
 
 export default Sidebar;
+
+
+
+
+
+

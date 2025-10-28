@@ -111,9 +111,3 @@ body {
 
 }
 
-
-.realstate {
-  background: linear-gradient(rgba(0, 0, 0, 0.471), black), url('../public/buliding.png');
-  background-position: center;
-  object-fit: cover;
-}

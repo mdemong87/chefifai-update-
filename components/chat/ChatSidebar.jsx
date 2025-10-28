@@ -28,7 +28,7 @@ const ChatSidebar = () => {
 
             {/* 💻 Sidebar Container */}
             <aside
-                className={`fixed md:static top-0 left-0 h-full md:h-auto w-64 bg-black border-r border-[var(--borderColor)] p-5 
+                className={`fixed md:static top-0 left-0 h-full md:h-auto w-80 bg-black myborderRight bg-neutral-800 p-5 
                 flex flex-col justify-between transform transition-transform duration-300 z-50
                 ${open ? "translate-x-0" : "-translate-x-full md:translate-x-0"}`}
             >

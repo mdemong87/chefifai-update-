@@ -23,7 +23,7 @@ export default function Footer({
     ];
 
     return (
-        <footer className="w-full h-full inset-0 text-neutral-200 realstate">
+        <footer className="w-full h-full inset-0 text-neutral-200 bg-neutral-900 myborderTop">
             <Container>
 
                 <div className="px-4 py-12 sm:py-16">
